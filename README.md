@@ -8,12 +8,13 @@
 ## Issue labels
 
 Issue labels for oss-project collaboration on GitHub for [iGitScor's open source projects](https://github.com/iGitScor?tab=repositories)
+To create labels from this repository to your repository, see more info in the [documentation](script/README.md)
 
 ### Global statuses
 
 #### Need a contributor
 
-![Need a contributor label](img/global-statuses/black.png "Need a contributor")
+![Need a contributor label](resources/img/global-statuses/black.png "Need a contributor")
 
 This status indicates that no one has already started to wok on this issue or the issue contains a checklist for multi contributors.
 
@@ -21,7 +22,7 @@ _**Hexa code: #000000**_
 
 #### Duplicate
 
-![Duplicate label](img/global-statuses/gray.png "Duplicate")
+![Duplicate label](resources/img/global-statuses/gray.png "Duplicate")
 
 This status indicated that the ticker concerns an issue which has been already submitted. Check in previous issue if your problem is already submitted.
 
@@ -29,7 +30,7 @@ _**Hexa code: #808080**_
 
 #### Invalid
 
-![Invalid label](img/global-statuses/silver.png "Invalid")
+![Invalid label](resources/img/global-statuses/silver.png "Invalid")
 
 This status indicates that the issue does not respect guidelines and should be modified.
 
@@ -61,7 +62,7 @@ Thank you for your great work and for the upcoming help
 
 #### Wontfix
 
-![Wontfix label](img/global-statuses/white.png "Wontfix")
+![Wontfix label](resources/img/global-statuses/white.png "Wontfix")
 
 _**Hexa code: #FFFFFF**_
 
@@ -71,25 +72,25 @@ ____
 
 #### Work in progress
 
-![Work in progress label](img/workflow/yellow.png "Work in progress")
+![Work in progress label](resources/img/workflow/yellow.png "Work in progress")
 
 _**Hexa code: #F3CA00**_
 
 #### Pending
 
-![Pending label](img/workflow/gold.png "Pending")
+![Pending label](resources/img/workflow/gold.png "Pending")
 
 _**Hexa code: #F5AC00**_
 
 #### Testing
 
-![Testing label](img/workflow/orange.png "Testing")
+![Testing label](resources/img/workflow/orange.png "Testing")
 
 _**Hexa code: #F4830**_
 
 #### Don't merge
 
-![Don't merge label](img/workflow/red.png "Don't merge")
+![Don't merge label](resources/img/workflow/red.png "Don't merge")
 
 _**Hexa code: #F50000**_
 
@@ -99,25 +100,25 @@ ____
 
 #### Bug
 
-![Bug label](img/kind-issue/lilac.png "Bug")
+![Bug label](resources/img/kind-issue/lilac.png "Bug")
 
 _**Hexa code: #C28399**_
 
 #### Question
 
-![Question label](img/kind-issue/mauve.png "Question")
+![Question label](resources/img/kind-issue/mauve.png "Question")
 
 _**Hexa code: #94284E**_
 
 #### Design
 
-![Design label](img/kind-issue/tan.png "Design")
+![Design label](resources/img/kind-issue/tan.png "Design")
 
 _**Hexa code: #C68F68**_
 
 #### Documentation
 
-![Documentation label](img/kind-issue/mint.png "Documentation")
+![Documentation label](resources/img/kind-issue/mint.png "Documentation")
 
 _**Hexa code: #90C770**_
 
@@ -127,25 +128,25 @@ ____
 
 #### Enhancement
 
-![Enhancement label](img/kind-work/purple.png "Enhancement")
+![Enhancement label](resources/img/kind-work/purple.png "Enhancement")
 
 _**Hexa code: #8307C0**_
 
 #### Infrastructure
 
-![Infrastructure label](img/kind-work/indigo.png "Infrastructure")
+![Infrastructure label](resources/img/kind-work/indigo.png "Infrastructure")
 
 _**Hexa code: #460461**_
 
 #### Accessibility
 
-![Accessibility label](img/kind-work/magenta.png "Accessibility")
+![Accessibility label](resources/img/kind-work/magenta.png "Accessibility")
 
 _**Hexa code: #F806C5**_
 
 #### Performance
 
-![Performance label](img/kind-work/cherry.png "Performance")
+![Performance label](resources/img/kind-work/cherry.png "Performance")
 
 _**Hexa code: #D7264A**_
 
@@ -155,19 +156,19 @@ ____
 
 #### Little work
 
-![Little work label](img/work-amount/green.png "Little work")
+![Little work label](resources/img/work-amount/green.png "Little work")
 
 _**Hexa code: #15D000**_
 
 #### Medium work
 
-![Medium work label](img/work-amount/lime.png "Medium work")
+![Medium work label](resources/img/work-amount/lime.png "Medium work")
 
 _**Hexa code: #94CC73**_
 
 ####  Much work
 
-![Much work label](img/work-amount/aqua.png "Much work")
+![Much work label](resources/img/work-amount/aqua.png "Much work")
 
 _**Hexa code: #7BCDA0**_
 
@@ -177,19 +178,19 @@ ____
 
 #### Beginner
 
-![Beginner label](img/skill-level/blue.png "Beginner")
+![Beginner label](resources/img/skill-level/blue.png "Beginner")
 
 _**Hexa code: #0509C3**_
 
 #### Intermediate
 
-![Intermediate label](img/skill-level/blue2.png "Intermediate")
+![Intermediate label](resources/img/skill-level/blue2.png "Intermediate")
 
 _**Hexa code: #0967C3**_
 
 #### Advanced
 
-![Advanced label](img/skill-level/azure.png "Advanced")
+![Advanced label](resources/img/skill-level/azure.png "Advanced")
 
 _**Hexa code: #4089C2**_
 
