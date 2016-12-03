@@ -1,21 +1,44 @@
+const prompt = require('prompt');
 const copyGitHubLabels = require('copy-github-labels')();
-const argv = require('minimist')(process.argv.slice(2));
 
-if (argv.username && argv.password && argv.repository) {
-  copyGitHubLabels.authenticate({
-    type: 'basic',
-    username: argv.username,
-    password: argv.password,
-  });
+var schema = {
+  properties: {
+    username: {
+      pattern: /^[a-zA-Z\-]+$/,
+      message: 'Username must be only letters or dashes',
+      required: true,
+    },
+    password: {
+      hidden: true,
+      required: true,
+    },
+    repository: {
+      pattern: /^[a-zA-Z\-]+$/,
+      message: 'Repository must be only letters or dashes',
+      required: true,
+    },
+  },
+};
 
-  // Copy labels from master repository to another
-  copyGitHubLabels.copy(
-    'iGitScor/contributing',
-    argv.username + '/' + argv.repository
-  );
+prompt.start();
 
-  console.log('Label synchronization OK!');
-} else {
-  console.error('A parameter is missing.');
-  process.exit(0);
-}
+prompt.get(schema, function (err, result) {
+  if (!err) {
+    copyGitHubLabels.authenticate({
+      type: 'basic',
+      username: result.username,
+      password: result.password,
+    });
+
+    // Copy labels from master repository to another
+    copyGitHubLabels.copy(
+      'iGitScor/contributing',
+      result.username + '/' + result.repository
+    );
+
+    console.log('Label synchronization OK!');
+  } else {
+    console.error('Prompt has encountered a problem.');
+    process.exit(0);
+  }
+});
